@@ -11,13 +11,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
-using static System.Windows.Forms.AxHost;
+using System.Media;
 
 namespace Final_Fantasy_rip_off
 {
 
     public partial class Form1 : Form
     {
+
+        SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Fanfare);
+
         bool debugging = false;
 
         Image M1Sprite = null;
@@ -91,7 +94,7 @@ namespace Final_Fantasy_rip_off
 
         #region charater stats
         int dkMaxHP = 500;
-        int dkCurrentHP = 0;
+        int dkCurrentHP = 500;
         int dkMaxSP = 50;
         int dkCurrentSP = 50;
         int dkCurrentSpeed = 3;
@@ -137,6 +140,7 @@ namespace Final_Fantasy_rip_off
         {
             InitializeComponent();
 
+           
             stepReq = rng.Next(6, 21);
         }
 
@@ -1150,8 +1154,9 @@ namespace Final_Fantasy_rip_off
                                         {
                                             bmCurrentSP = bmMaxSP;
                                         }
+                                        spPotions--;
                                     }
-                                    spPotions--;
+                                    
                                     #endregion
 
                                     #region revive BM
@@ -1161,8 +1166,9 @@ namespace Final_Fantasy_rip_off
                                         allyTarget = false;
 
                                         bmCurrentHP = 150;
+                                        revivePotions--;
                                     }
-                                    revivePotions--;
+                                    
                                     #endregion
 
                                     break;
@@ -1218,8 +1224,9 @@ namespace Final_Fantasy_rip_off
                                         allyTarget = false;
 
                                         dkCurrentHP = 250;
+                                        revivePotions--;
                                     }
-                                    revivePotions--;
+                                    
                                     #endregion
 
                                     break;
@@ -1274,8 +1281,9 @@ namespace Final_Fantasy_rip_off
                                         {
                                             drCurrentSP = drMaxSP;
                                         }
+                                        spPotions--;
                                     }
-                                    spPotions--;
+                                    
                                     #endregion
 
                                     #region revive DR
@@ -1285,8 +1293,9 @@ namespace Final_Fantasy_rip_off
                                         allyTarget = false;
 
                                         drCurrentHP = 200;
+                                        revivePotions--;
                                     }
-                                    revivePotions--;
+                                   
                                     #endregion
 
                                     break;
@@ -1673,6 +1682,7 @@ namespace Final_Fantasy_rip_off
                 if (stepCount == stepReq)
                 {
                     gameState = "battle";
+                    
 
                     darkKnight = new Rectangle(530, 220, 40, 40);
                     blackMage = new Rectangle(530, 170, 40, 40);
@@ -1715,7 +1725,7 @@ namespace Final_Fantasy_rip_off
                                 else
                                 {
                                     M1Sprite = Resources.Monster4;
-                                    M1HP = 250;
+                                    M1HP = 170;
                                     M1Might = 100;
                                     M1Speed = 1;
                                     M1SetSpeed = 1;
@@ -1751,7 +1761,7 @@ namespace Final_Fantasy_rip_off
                                 else
                                 {
                                     M2Sprite = Resources.Monster4;
-                                    M2HP = 250;
+                                    M2HP = 170;
                                     M2Might = 100;
                                     M2Speed = 1;
                                     M2SetSpeed = 1;
@@ -1787,7 +1797,7 @@ namespace Final_Fantasy_rip_off
                                 else
                                 {
                                     M3Sprite = Resources.Monster4;
-                                    M3HP = 250;
+                                    M3HP = 170;
                                     M3Might = 100;
                                     M3Speed = 1;
                                     M3SetSpeed = 1;
@@ -2068,8 +2078,9 @@ namespace Final_Fantasy_rip_off
                                 {
                                     bmCurrentSP = bmMaxSP;
                                 }
+                                spPotions--;
                             }
-                            spPotions--;
+                           
                             #endregion
 
                             #region revive BM
@@ -2079,8 +2090,9 @@ namespace Final_Fantasy_rip_off
                                 allyTarget = false;
 
                                 bmCurrentHP = 150;
+                                revivePotions--;
                             }
-                            revivePotions--;
+                           
                             #endregion
 
                             break;
@@ -2145,8 +2157,9 @@ namespace Final_Fantasy_rip_off
                                 allyTarget = false;
 
                                 dkCurrentHP = 250;
+                                revivePotions--;
                             }
-                            revivePotions--;
+                         
                             #endregion
 
                             break;
@@ -2199,8 +2212,9 @@ namespace Final_Fantasy_rip_off
                                 {
                                     drCurrentSP = drMaxSP;
                                 }
+                                spPotions--;
                             }
-                            spPotions--;
+                           
                             #endregion
 
                             #region revive DR
@@ -2210,8 +2224,9 @@ namespace Final_Fantasy_rip_off
                                 allyTarget = false;
 
                                 drCurrentHP = 200;
+                                revivePotions--;
                             }
-                            revivePotions--;
+                           
                             #endregion
 
                             break;
@@ -2421,6 +2436,7 @@ namespace Final_Fantasy_rip_off
                     animation = "win";
                     if (animationPart == 1)
                     {
+                        soundPlayer.Play();
                         spriteTimer = 0;
                         animationPart = 2;
                     }
@@ -2522,6 +2538,7 @@ namespace Final_Fantasy_rip_off
                         {
                             dragoonSprite = Resources.DR_Walk;
                             dragoon.X += 10;
+                            weaponSprite = null;
                         }
                         else if (dragoon.X >= 530)
                         {
@@ -2529,6 +2546,7 @@ namespace Final_Fantasy_rip_off
                             dragoonSprite = Resources.DR_Idle;
                             animation = "";
                             turn = "noOne";
+                            weaponSprite = null;
                         }
                         break;
 
@@ -2738,10 +2756,14 @@ namespace Final_Fantasy_rip_off
                         if (spriteTimer <= 5 || spriteTimer > 10)
                         {
                             blackMageSprite = Resources.BM_SwingUp;
+                            weaponRectangle.Location = new Point(450, 150);
+                            weaponSprite = Resources.Staff_Up;
                         }
                         else
                         {
                             blackMageSprite = Resources.BM_SwingDown;
+                            weaponRectangle.Location = new Point(415, 170);
+                            weaponSprite = Resources.Staff_Down;
                         }
 
 
@@ -2749,6 +2771,7 @@ namespace Final_Fantasy_rip_off
                         {
                             blackMageSprite = Resources.BM_Walk;
                             blackMage.X += 10;
+                            weaponSprite = null;
                         }
                         else if (blackMage.X >= 530)
                         {
@@ -2756,6 +2779,7 @@ namespace Final_Fantasy_rip_off
                             blackMageSprite = Resources.BM_Idle;
                             animation = "";
                             turn = "noOne";
+                            weaponSprite = null;
                         }
 
                         break;
@@ -3072,6 +3096,8 @@ namespace Final_Fantasy_rip_off
                 #region Win Animation
                 if (animation == "win")
                 {
+                    soundPlayer.Play();
+
                     if (bmCurrentHP > 0 && spriteTimer < 25)
                     {
                         blackMageSprite = Resources.BM_Win;
@@ -3136,6 +3162,7 @@ namespace Final_Fantasy_rip_off
                         dkCurrentSpeed = dkSetSpeed;
                         drCurrentSpeed = drSetSpeed;
 
+                        soundPlayer.Stop();
                         gameState = "overWorld";
                         animation = "";
                         stepReq = rng.Next(15, 21);

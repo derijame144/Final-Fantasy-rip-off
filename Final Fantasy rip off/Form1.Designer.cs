@@ -30,12 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.Gamer = new System.Windows.Forms.Timer(this.components);
-            this.XcordLabel = new System.Windows.Forms.Label();
-            this.YcordLabel = new System.Windows.Forms.Label();
             this.bmStatsLabel = new System.Windows.Forms.Label();
             this.dkStatsLabel = new System.Windows.Forms.Label();
             this.drStatsLabel = new System.Windows.Forms.Label();
             this.animationTimer = new System.Windows.Forms.Timer(this.components);
+            this.YcordLabel = new System.Windows.Forms.Label();
+            this.XcordLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Gamer
@@ -43,24 +43,6 @@
             this.Gamer.Enabled = true;
             this.Gamer.Interval = 20;
             this.Gamer.Tick += new System.EventHandler(this.Gamer_Tick);
-            // 
-            // XcordLabel
-            // 
-            this.XcordLabel.AutoSize = true;
-            this.XcordLabel.Location = new System.Drawing.Point(45, 28);
-            this.XcordLabel.Name = "XcordLabel";
-            this.XcordLabel.Size = new System.Drawing.Size(70, 25);
-            this.XcordLabel.TabIndex = 0;
-            this.XcordLabel.Text = "label1";
-            // 
-            // YcordLabel
-            // 
-            this.YcordLabel.AutoSize = true;
-            this.YcordLabel.Location = new System.Drawing.Point(45, 69);
-            this.YcordLabel.Name = "YcordLabel";
-            this.YcordLabel.Size = new System.Drawing.Size(70, 25);
-            this.YcordLabel.TabIndex = 1;
-            this.YcordLabel.Text = "label1";
             // 
             // bmStatsLabel
             // 
@@ -104,6 +86,24 @@
             this.animationTimer.Interval = 20;
             this.animationTimer.Tick += new System.EventHandler(this.Animation_Tick);
             // 
+            // YcordLabel
+            // 
+            this.YcordLabel.AutoSize = true;
+            this.YcordLabel.Location = new System.Drawing.Point(45, 69);
+            this.YcordLabel.Name = "YcordLabel";
+            this.YcordLabel.Size = new System.Drawing.Size(70, 25);
+            this.YcordLabel.TabIndex = 1;
+            this.YcordLabel.Text = "label1";
+            // 
+            // XcordLabel
+            // 
+            this.XcordLabel.AutoSize = true;
+            this.XcordLabel.Location = new System.Drawing.Point(45, 28);
+            this.XcordLabel.Name = "XcordLabel";
+            this.XcordLabel.Size = new System.Drawing.Size(70, 25);
+            this.XcordLabel.TabIndex = 0;
+            this.XcordLabel.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -129,12 +129,12 @@
         #endregion
 
         private System.Windows.Forms.Timer Gamer;
-        private System.Windows.Forms.Label XcordLabel;
-        private System.Windows.Forms.Label YcordLabel;
         private System.Windows.Forms.Label bmStatsLabel;
         private System.Windows.Forms.Label dkStatsLabel;
         private System.Windows.Forms.Label drStatsLabel;
         private System.Windows.Forms.Timer animationTimer;
+        private System.Windows.Forms.Label YcordLabel;
+        private System.Windows.Forms.Label XcordLabel;
     }
 }
 

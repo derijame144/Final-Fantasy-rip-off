@@ -201,6 +201,15 @@ namespace Final_Fantasy_rip_off.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Battle_Music {
+            get {
+                return ResourceManager.GetStream("Battle_Music", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap battle_room {
@@ -567,6 +576,15 @@ namespace Final_Fantasy_rip_off.Properties {
             get {
                 object obj = ResourceManager.GetObject("DR_Win", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Fanfare {
+            get {
+                return ResourceManager.GetStream("Fanfare", resourceCulture);
             }
         }
         
