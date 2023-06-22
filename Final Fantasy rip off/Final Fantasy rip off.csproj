@@ -260,5 +260,128 @@
   <ItemGroup>
     <None Include="Resources\Fire_2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quake_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fast_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Win.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Dead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_SwingDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_SwingUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Taunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DK_Walk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%28sword%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%28sword2%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charge_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heal_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spear_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spear_UP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff_Up.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

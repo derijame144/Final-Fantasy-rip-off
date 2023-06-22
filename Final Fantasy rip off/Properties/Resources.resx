@@ -154,23 +154,50 @@
   <data name="BM_Win" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BM_Win.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Charge_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DK_Dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(Dead).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_Dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DK_Hit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(Hit).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_Hit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DK_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(Idle).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_Idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DK_Low" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(LowHP).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_Low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DK_SwingDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(SwingDown).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_SwingDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DK_SwingUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkKnight(SwingUp).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\DK_SwingUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DK_Taunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DK_Taunt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DK_Walk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DK_Walk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DK_Win" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DK_Win.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DR_Charge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DR_Charge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +229,27 @@
   <data name="DR_Win" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DR_Win.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fast_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fast_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fire_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fire_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -220,6 +268,24 @@
   <data name="Fire_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fire_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Heal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heal_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heal_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heal_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heal_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heal_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Monster1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Monster1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,6 +297,27 @@
   </data>
   <data name="Monster4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Monster4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quake_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quake_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Room_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Room 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -255,6 +342,18 @@
   </data>
   <data name="room_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\room 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spear_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spear_UP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Staff_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Staff_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Staff_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Staff_Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -291,5 +390,11 @@
   </data>
   <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_sword2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(sword2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_sword_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(sword).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
